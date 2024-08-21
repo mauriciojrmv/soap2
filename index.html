@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Persona</title>
+</head>
+<body>
+    <h1>Registrar Persona</h1>
+    <form action="client.php" method="POST">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="paternal_surname">Apellido Paterno:</label>
+        <input type="text" id="paternal_surname" name="paternal_surname" required><br><br>
+        
+        <label for="maternal_surname">Apellido Materno:</label>
+        <input type="text" id="maternal_surname" name="maternal_surname" required><br><br>
+        
+        <label for="id_number">Número de Carnet:</label>
+        <input type="text" id="id_number" name="id_number" required><br><br>
+        
+        <label for="birth_date">Fecha de Nacimiento:</label>
+        <input type="date" id="birth_date" name="birth_date" required><br><br>
+        
+        <label for="gender">Sexo:</label>
+        <select id="gender" name="gender" required>
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+        </select><br><br>
+        
+        <label for="birth_place">Lugar de Nacimiento:</label>
+        <input type="text" id="birth_place" name="birth_place" required><br><br>
+        
+        <label for="marital_status">Estado Civil:</label>
+        <select id="marital_status" name="marital_status" required>
+            <option value="S">Soltero</option>
+            <option value="C">Casado</option>
+            <option value="D">Divorciado</option>
+            <option value="V">Viudo</option>
+        </select><br><br>
+        
+        <label for="profession">Profesión:</label>
+        <input type="text" id="profession" name="profession" required><br><br>
+        
+        <label for="address">Domicilio:</label>
+        <input type="text" id="address" name="address" required><br><br>
+        
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>
