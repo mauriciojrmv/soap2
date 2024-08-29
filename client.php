@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     try {
         // Crear un cliente SOAP para enviar los datos al servidor
         $client = new SoapClient(null, [
-            'location' => "http://localhost:8000/soap/server.php", // URL del servidor SOAP en PC2
+            'location' => "http://192.168.1.4:80/soap/server.php", // URL del servidor SOAP en PC2
             'uri' => "urn:PersonService",
             'trace' => 1
         ]);

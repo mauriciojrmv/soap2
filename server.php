@@ -4,7 +4,7 @@ class PersonService {
 
     public function __construct() {
         // URL del servidor de base de datos en PC3
-        $this->dbServerUrl = "http://localhost:8000/soap/bd.php";
+        $this->dbServerUrl = "http://192.168.1.8:8000/soap/bd.php";
     }
 
     public function registerPerson($nombre, $apellido_paterno, $apellido_materno, $numero_carnet, $fecha_nacimiento, $sexo, $lugar_nacimiento, $estado_civil, $profesion, $domicilio, $token) {

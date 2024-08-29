@@ -2,6 +2,10 @@ pc1 debe tener el index.html y el client.php.,
  recomiendo puerto 8000 y asignar la ip concedida por la red..debemos dirigir a la ip del server con su puerto;
 pc2 debe tener server.php corriendo en xampp recomiendo puerto 8000 y asignar la ip concedida por la red. debemos dirigir a la ip de la bd con la configuracion de red de esta otra. debemos dar la ip a cliente para que se conecte.;
 pc3 debe tener la bd corriendo en xampp recomiendo puerto 8000 y asignar la ip concedida por la red. debemos dar la ip a server para que se conecte;
+
+
+cada xampp se debe configurar con la ip asignada por la red y su puerto. esto en config>http.conf
+
 adicionalmente debemos crear una base de datos en mysql para este soap server:;
 
 CREATE DATABASE person_db;
